@@ -1,0 +1,85 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+     background-color: #f3f3f3
+}
+
+@font-face {
+    font-family: poppins-reg;
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+h2.title {
+    font-family: poppins-semibold;
+    line-height: 2px;
+}
+
+img.title {
+    vertical-align: top;
+    width: 130px;
+    height: 10px
+}
+
+div.col-sm-1 {
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+div.col-sm-2 {
+    width: 130px;
+    padding-right: 0px;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.header {
+    width: 10px;
+}
+
+ul {
+    background-image: url("../images/table-row2.png");
+    background-size: 100% 480px;
+}
+
+li.top {
+    background-image: url("../images/table-header2.png");
+    background-size: 115px 40px;
+    color: white;
+}
+
+li.topsno {
+    background-image: url("../images/table-header2.png");
+    background-size: 50px 40px;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
